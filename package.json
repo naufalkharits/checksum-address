@@ -1,0 +1,29 @@
+{
+  "name": "checksum-address",
+  "version": "0.0.1",
+  "description": "Mixed-case checksum address encoding",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/naufalkharits/checksum-address"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "node index"
+  },
+  "keywords": [
+    "ethereum",
+    "web3"
+  ],
+  "author": "naufalkharits",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/keccak": "^3.0.4",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "keccak": "^3.0.4"
+  }
+}
